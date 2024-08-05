@@ -2,21 +2,21 @@ import { FaLongArrowAltUp } from "react-icons/fa";
 function LandingPage() {
     return (
         <div className="w-full h-screen bg-zinc-900 border-t-2">
-            <div className="text-structure mt-40 px-20 ">
+            <div className="text-structure mt-40 px-20 font-['Founders_Grotesk_X_Condensed'] ">
                 <div className="uppercase masker leading-[7vw] ] 
-                 flex flex-col text-[8vw] text-white font-bold">
+                 flex flex-col text-[9vw] text-white font-bold">
                     <h1>
                         we create
                     </h1> 
-                   <div className="flex items-center">
-                   <div className="w-[9vw] h-[12vh] mt-[1vw] ml-[1vw] rounded-md relative mr-[1vw] bg-red-500 ">
+                   <div className="flex  items-center">
+                   <div className="w-[9vw] h-[13vh] mb-12 rounded-md relative mr-[1vw] bg-red-500 ">
                     </div>
-                    <h1>eye opening</h1>
+                    <h1>eye-opening</h1>
                    </div>
                     <h1>presentations</h1>
                 </div>
             </div>
-            <div className="border-t-[1px]  bg-zinc-900 leading-none mt-20 flex justify-between items-center border-zinc-800 py-5 px-20 " >
+            <div className="border-t-[1px] font-['Neue_Montreal'] bg-zinc-900 leading-none mt-[3vw] flex justify-between items-center border-zinc-800 py-5 px-20 " >
                 {["For Public and Private Companies",
                     "From the first pitch to IPO ",
                 ].map((item, index) => (
