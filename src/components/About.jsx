@@ -46,7 +46,7 @@ function About() {
         <h1 className="text-[3.2vw]">
         Our approach:
         </h1>
-        <button className="hover:bg-black flex items-center gap-9  justify-center bg-[#1d1818] p-6 rounded-full text-white w-[14vw] h-[9vh] ">
+        <button className="hover:bg-black flex items-center gap-9  border-black justify-center bg-[#1d1818] p-6 rounded-full text-white w-[14vw] h-[9vh] ">
          READ MORE
          <div className="w-2.5 h-2.5 rounded-full bg-zinc-100"></div>
         </button>
